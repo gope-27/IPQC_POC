@@ -1,0 +1,168 @@
+
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: separate;
+    border-spacing: 0;  
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 12px 15px;
+    border: 1px solid #e5e5e5;
+  }
+
+  th {
+    background-color: #f6f6f6;
+    font-weight: bold;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+
+  tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+
+  tbody td:first-child,
+  thead th:first-child {
+    border-left: none;
+  }
+
+  tbody td:last-child,
+  thead th:last-child {
+    border-right: none;
+  }
+
+  thead th:first-child {
+    border-top-left-radius: 10px;
+  }
+
+  thead th:last-child {
+    border-top-right-radius: 10px;
+  }
+
+  tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+
+  tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+
+  /* Custom border colors */
+  th,
+  td {
+    border: 1px solid black;
+  }
+
+  th {
+    background-color:skyblue;
+    color: #ffffff;
+  }
+
+  /* Custom taxonomy styling */
+  .taxonomy td {
+    font-weight: bold;
+  }
+
+  .taxonomy td:not(:first-child) {
+    text-align: center;
+    background-color: #f6f6f6;
+  }
+
+  /* Custom highlighting for non-zero cells */
+  tbody td:nth-child(10):not(:empty):not(:contains('0')),
+  tbody td:nth-child(15):not(:empty):not(:contains('0')),
+  tbody td:nth-child(20):not(:empty):not(:contains('0')) {
+    background-color: #f00;
+  }
+
+  th:nth-child(3){
+    background-color:lightpink;
+    color: #ffffff;
+  }
+
+  th:nth-child(4){
+    background-color: rosybrown;
+    color: #ffffff;
+  }
+
+  th:nth-child(5){
+    background-color: rgb(175, 242, 175);
+    color: #ffffff;
+  }
+  th:nth-child(11){
+    background-color: rgb(244, 200, 200);
+    color: #ffffff;
+  }
+
+  th:nth-child(12){
+    background-color: rgb(149, 245, 173);
+    color: #ffffff;
+  }
+
+  th:nth-child(13){
+    background-color: rgb(244, 200, 200);
+    color: #ffffff;
+  }
+
+
+  .sample-header {
+    background-color: rosybrown;
+    color: white;
+  }
+  
+  .sample-header1 {
+    background-color: rosybrown;
+    color: white;
+  }
+
+  th.sample-header2 {
+    background-color: rosybrown;
+    color: white;
+  }
+
+  .sample-header3 {
+    background-color: rgb(142, 247, 142);
+    color: white;
+  }
+  
+  .sample-header4 {
+    background-color: rgb(142, 247, 142);
+    color: white;
+  }
+
+  .sample-header5 {
+    background-color: rgb(142, 247, 142);
+    color: white;
+  }
+
+  
+  .sample-header6 {
+    background-color: rgb(196, 71, 90);
+    color: white;
+  }
+  
+  .sample-header7 {
+    background-color: lightpink;
+    color: white;
+  }
+
+  .sample-header8 {
+    background-color:lightpink;
+    color: white;
+  }
+  
+  
+  th.sample-header9 {
+    background-color: skyblue;
+  }
+  

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shift Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="style.css?v=1">
+    
+  </head>
+  <body>
+    <table>
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">CNC MACHINES</th>
+            <th rowspan="2">MACHINE TYPE</th>
+            <th rowspan="2" class="sample-header9">TOTAL DIM</th>
+            <th rowspan="2">SAMPLE TAKEN</th>
+            <th rowspan="2">OK PARTS</th>
+            <th rowspan="2">YEILD </th>
+            <th colspan="5" style="text-align: center;">Shift 1</th>
+            <th colspan="5"style="text-align: center;">Shift 2</th>
+            <th colspan="5"style="text-align: center;">Shift 3</th>
+          </tr>
+  
+          <tr>
+            <th class="sample-header">Sample Taken</th>
+            <th class="sample-header3">Ok Count</th>
+            <th class="sample-header6">NG Count</th>
+            <th>Yield %</th>
+            <th>NG List</th>
+
+            <th class="sample-header1">Sample Taken</th>
+            <th class="sample-header4">Ok Count</th>
+            <th class="sample-header7">NG Count</th>
+            <th>Yield %</th>
+            <th>NG List</th>
+
+            <th class="sample-header2">Sample Taken</th>
+            <th class="sample-header5">Ok Count</th>
+            <th class="sample-header8">NG Count</th>
+            <th>Yield %</th>
+            <th>NG List</th>
+          </tr>
+        </thead>
+      
+      <tbody>
+        {% for row in data %}
+        <tr>
+          <td>{{ row['K55 CNC'] }}</td>
+          <td>{{ row['Machine_Type'] }}</td>
+          <td>{{ row['Total_Dim'] }}</td>
+          <td>{{ row['Sample_Taken'] }}</td>
+          <td>{{ row['OK_Count'] }}</td>
+          <td>{{ row['NG_Count'] }}</td>
+          <td>{{ row['Yield%'] }}</td>
+          <td>{{ row['NG_List'] }}</td>
+          <td>{{ row['Shift1_Sample_Taken'] }}</td>
+          <td>{{ row['Shift1_OK_Count'] }}</td>
+          <td>{{ row['Shift1_NG_Count'] }}</td>
+          <td>{{ row['Shift1_Yield%'] }}</td>
+          <td>{{ row['Shift1_NG_List'] }}</td>
+          <td>{{ row['Shift2_Sample_Taken'] }}</td>
+          <td>{{ row['Shift2_OK_Count'] }}</td>
+          <td>{{ row['Shift2_NG_Count'] }}</td>
+          <td>{{ row['Shift2_Yield%'] }}</td>
+          <td>{{ row['Shift2_NG_List'] }}</td>
+          <td>{{ row['Shift3_Sample_Taken'] }}</td>
+          <td>{{ row['Shift3_OK_Count'] }}</td>
+          <td>{{ row['Shift3_NG_Count'] }}</td>
+          <td>{{ row['Shift3_Yield%'] }}</td>
+          <td>{{ row['Shift3_NG_List'] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
+
+
+
