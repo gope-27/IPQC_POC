@@ -1,0 +1,201 @@
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  text-align: left;
+  padding: 12px 15px;
+  border: 1px solid #e5e5e5;
+  color:black;
+  width: 150px;
+}
+
+
+th {
+  background-color: #f6f6f6;
+  font-weight: bold;
+  color:black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+  color:black;
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2;
+  color:black;
+}
+
+tbody td:first-child,
+thead th:first-child {
+  border-left: none;
+}
+
+tbody td:last-child,
+thead th:last-child {
+  border-right: none;
+}
+
+thead th:first-child {
+  border-top-left-radius: 10px;
+}
+
+thead th:last-child {
+  border-top-right-radius: 10px;
+}
+
+tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+/* Custom border colors */
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: #8ec6ff;
+  color:black;
+  white-space:nowrap;
+}
+
+/* Custom taxonomy styling */
+.taxonomy td {
+  font-weight: bold;
+}
+
+.taxonomy td:not(:first-child) {
+  text-align: center;
+  background-color: #f6f6f6;
+  white-space:nowrap;
+}
+
+/* Custom highlighting for non-zero cells */
+tbody td:nth-child(10):not(:empty):not(:contains('0')),
+tbody td:nth-child(15):not(:empty):not(:contains('0')),
+tbody td:nth-child(20):not(:empty):not(:contains('0')) {
+  background-color: #f00;
+}
+
+
+th:nth-child(3),
+td:nth-child(3) {
+  background-color: #e0f3fc;
+  color:black;
+  white-space:nowrap;
+}
+
+
+
+th:nth-child(4) {
+  background-color: rosybrown;
+  color:black;
+  white-space:nowrap;
+}
+
+th:nth-child(5) {
+  background-color: #bae0bd;
+  color:black;
+  white-space:nowrap;
+}
+
+th:nth-child(11) {
+  background-color: rgb(244, 200, 200);
+  color:black;
+  white-space:nowrap;
+}
+
+th:nth-child(12) {
+  background-color: #c0e0be;
+  color:black;
+  white-space:nowrap;
+}
+
+th:nth-child(13) {
+  background-color: rgb(244, 200, 200);
+  color:black;
+  white-space:nowrap;
+}
+
+
+.sample-header,
+.sample-header1,
+th.sample-header2 {
+  background-color: #d8c6c6;
+  color:black;
+  white-space:nowrap;
+}
+
+
+.sample-header3 {
+  background-color: lightgreen;
+  color:black;
+  white-space:nowrap;
+}
+
+th.sample-header3,
+.sample-header4,
+th.sample-header5 {
+  background-color: #9ad8a0;
+  color:black;
+  white-space:nowrap;
+}
+
+th.sample-header6,
+th.sample-header7,
+th.sample-header8 {
+  background-color: #f6c6c2;
+  color:black;
+  white-space:nowrap;
+}
+
+th.sample-header9 {
+  background-color: #d7eef9;
+  color:black;
+  white-space:nowrap;
+}
+
+th.sample-header13,
+th.sample-header14,
+th.sample-header15 {
+  background-color: #e0f3fc;
+  color:black;
+  white-space:nowrap;
+}
+
+th.sample-header10,
+th.sample-header11,
+th.sample-header12 {
+  background-color: #8ec6ff;
+  color:black;
+  white-space:nowrap;
+  /* adjust the width as needed */
+}
+
+th.sample-header10, 
+th.sample-header11, 
+th.sample-header12 {
+  background-color: #8ec6ff;
+  color:black;
+  white-space: nowrap;
+  padding: 0 200px;
+}
+
+
+
+
+
